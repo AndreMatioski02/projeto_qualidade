@@ -1,0 +1,311 @@
+ERROR - 2021-11-22 08:23:08 --> Error connecting to the database: Access denied for user '****'@'localhost' (using password: NO)
+ERROR - 2021-11-22 08:34:09 --> Error connecting to the database: Access denied for user '****'@'localhost' (using password: NO)
+ERROR - 2021-11-22 08:35:34 --> Error connecting to the database: Access denied for user '****'@'localhost' (using password: NO)
+ERROR - 2021-11-22 17:39:44 --> Failed to open the referenced table 'categorias'
+ERROR - 2021-11-22 17:39:46 --> Failed to open the referenced table 'categorias'
+ERROR - 2021-11-22 17:40:46 --> Failed to open the referenced table 'categorias'
+ERROR - 2021-11-22 17:41:41 --> Failed to open the referenced table 'categorias'
+ERROR - 2021-11-22 17:42:14 --> Failed to open the referenced table 'categorias'
+ERROR - 2021-11-22 17:44:44 --> Failed to open the referenced table 'categorias'
+CRITICAL - 2021-11-22 18:04:41 --> syntax error, unexpected 'endforeach' (T_ENDFOREACH), expecting end of file
+#0 C:\wamp64\www\TrabalhoWebM2\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\wamp64\www\TrabalhoWebM2\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('produtos/index', Array, true)
+#2 C:\wamp64\www\TrabalhoWebM2\app\Controllers\ProdutoController.php(11): view('produtos/index')
+#3 C:\wamp64\www\TrabalhoWebM2\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\ProdutoController->index()
+#4 C:\wamp64\www\TrabalhoWebM2\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProdutoController))
+#5 C:\wamp64\www\TrabalhoWebM2\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\TrabalhoWebM2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\wamp64\www\TrabalhoWebM2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\T...')
+#8 {main}
+CRITICAL - 2021-11-22 18:05:03 --> syntax error, unexpected 'endforeach' (T_ENDFOREACH), expecting end of file
+#0 C:\wamp64\www\TrabalhoWebM2\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\wamp64\www\TrabalhoWebM2\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('produtos/index', Array, true)
+#2 C:\wamp64\www\TrabalhoWebM2\app\Controllers\ProdutoController.php(11): view('produtos/index')
+#3 C:\wamp64\www\TrabalhoWebM2\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\ProdutoController->index()
+#4 C:\wamp64\www\TrabalhoWebM2\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProdutoController))
+#5 C:\wamp64\www\TrabalhoWebM2\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\TrabalhoWebM2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\wamp64\www\TrabalhoWebM2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\T...')
+#8 {main}
+CRITICAL - 2021-11-22 18:06:09 --> Undefined variable: produtos
+#0 C:\wamp64\www\TrabalhoWebM2\app\Views\produtos\index.php(38): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\T...', 38, Array)
+#1 C:\wamp64\www\TrabalhoWebM2\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\wamp64\\www\\T...')
+#2 C:\wamp64\www\TrabalhoWebM2\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\TrabalhoWebM2\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('produtos/index', Array, true)
+#4 C:\wamp64\www\TrabalhoWebM2\app\Controllers\ProdutoController.php(11): view('produtos/index')
+#5 C:\wamp64\www\TrabalhoWebM2\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\ProdutoController->index()
+#6 C:\wamp64\www\TrabalhoWebM2\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProdutoController))
+#7 C:\wamp64\www\TrabalhoWebM2\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\TrabalhoWebM2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\TrabalhoWebM2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\T...')
+#10 {main}
+CRITICAL - 2021-11-22 18:16:01 --> syntax error, unexpected '}', expecting end of file
+#0 C:\wamp64\www\TrabalhoWebM2\vendor\codeigniter4\framework\system\Router\Router.php(176): CodeIgniter\Router\Router->autoRoute('/')
+#1 C:\wamp64\www\TrabalhoWebM2\vendor\codeigniter4\framework\system\CodeIgniter.php(718): CodeIgniter\Router\Router->handle('/')
+#2 C:\wamp64\www\TrabalhoWebM2\vendor\codeigniter4\framework\system\CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\wamp64\www\TrabalhoWebM2\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\TrabalhoWebM2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\TrabalhoWebM2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\T...')
+#6 {main}
+CRITICAL - 2021-11-22 18:17:25 --> Class 'App\Controllers\ProdutoModel' not found
+#0 C:\wamp64\www\TrabalhoWebM2\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\ProdutoController->index()
+#1 C:\wamp64\www\TrabalhoWebM2\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProdutoController))
+#2 C:\wamp64\www\TrabalhoWebM2\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\TrabalhoWebM2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\wamp64\www\TrabalhoWebM2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\T...')
+#5 {main}
+CRITICAL - 2021-11-22 18:18:30 --> Class 'App\Controllers\ProdutoModel' not found
+#0 C:\wamp64\www\TrabalhoWebM2\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\ProdutoController->index()
+#1 C:\wamp64\www\TrabalhoWebM2\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProdutoController))
+#2 C:\wamp64\www\TrabalhoWebM2\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\TrabalhoWebM2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\wamp64\www\TrabalhoWebM2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\T...')
+#5 {main}
+CRITICAL - 2021-11-22 18:19:55 --> Call to undefined method App\Models\ProdutoModel::all()
+#0 C:\wamp64\www\TrabalhoWebM2\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\ProdutoController->index()
+#1 C:\wamp64\www\TrabalhoWebM2\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProdutoController))
+#2 C:\wamp64\www\TrabalhoWebM2\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\TrabalhoWebM2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\wamp64\www\TrabalhoWebM2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\T...')
+#5 {main}
+CRITICAL - 2021-11-22 18:40:45 --> syntax error, unexpected ';', expecting ']'
+#0 C:\wamp64\www\TrabalhoWebM2\vendor\codeigniter4\framework\system\Router\Router.php(176): CodeIgniter\Router\Router->autoRoute('/')
+#1 C:\wamp64\www\TrabalhoWebM2\vendor\codeigniter4\framework\system\CodeIgniter.php(718): CodeIgniter\Router\Router->handle('/')
+#2 C:\wamp64\www\TrabalhoWebM2\vendor\codeigniter4\framework\system\CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\wamp64\www\TrabalhoWebM2\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\TrabalhoWebM2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\TrabalhoWebM2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\T...')
+#6 {main}
+CRITICAL - 2021-11-22 18:41:16 --> syntax error, unexpected ''Usuário salvo com sucesso'' (T_CONSTANT_ENCAPSED_STRING), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$'
+#0 C:\wamp64\www\TrabalhoWebM2\vendor\codeigniter4\framework\system\Router\Router.php(176): CodeIgniter\Router\Router->autoRoute('/')
+#1 C:\wamp64\www\TrabalhoWebM2\vendor\codeigniter4\framework\system\CodeIgniter.php(718): CodeIgniter\Router\Router->handle('/')
+#2 C:\wamp64\www\TrabalhoWebM2\vendor\codeigniter4\framework\system\CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\wamp64\www\TrabalhoWebM2\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\TrabalhoWebM2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\TrabalhoWebM2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\T...')
+#6 {main}
+CRITICAL - 2021-11-22 18:41:50 --> syntax error, unexpected '{', expecting ')'
+#0 C:\wamp64\www\TrabalhoWebM2\vendor\codeigniter4\framework\system\Router\Router.php(176): CodeIgniter\Router\Router->autoRoute('/')
+#1 C:\wamp64\www\TrabalhoWebM2\vendor\codeigniter4\framework\system\CodeIgniter.php(718): CodeIgniter\Router\Router->handle('/')
+#2 C:\wamp64\www\TrabalhoWebM2\vendor\codeigniter4\framework\system\CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\wamp64\www\TrabalhoWebM2\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\TrabalhoWebM2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\TrabalhoWebM2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\T...')
+#6 {main}
+CRITICAL - 2021-11-22 18:42:13 --> syntax error, unexpected '{', expecting ')'
+#0 C:\wamp64\www\TrabalhoWebM2\vendor\codeigniter4\framework\system\Router\Router.php(176): CodeIgniter\Router\Router->autoRoute('/')
+#1 C:\wamp64\www\TrabalhoWebM2\vendor\codeigniter4\framework\system\CodeIgniter.php(718): CodeIgniter\Router\Router->handle('/')
+#2 C:\wamp64\www\TrabalhoWebM2\vendor\codeigniter4\framework\system\CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\wamp64\www\TrabalhoWebM2\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\TrabalhoWebM2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\TrabalhoWebM2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\T...')
+#6 {main}
+CRITICAL - 2021-11-22 18:42:29 --> syntax error, unexpected ''Usuário salvo com sucesso'' (T_CONSTANT_ENCAPSED_STRING), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$'
+#0 C:\wamp64\www\TrabalhoWebM2\vendor\codeigniter4\framework\system\Router\Router.php(176): CodeIgniter\Router\Router->autoRoute('/')
+#1 C:\wamp64\www\TrabalhoWebM2\vendor\codeigniter4\framework\system\CodeIgniter.php(718): CodeIgniter\Router\Router->handle('/')
+#2 C:\wamp64\www\TrabalhoWebM2\vendor\codeigniter4\framework\system\CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\wamp64\www\TrabalhoWebM2\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\TrabalhoWebM2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\TrabalhoWebM2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\T...')
+#6 {main}
+CRITICAL - 2021-11-22 18:45:25 --> syntax error, unexpected 'echo' (T_ECHO), expecting ';'
+#0 C:\wamp64\www\TrabalhoWebM2\vendor\codeigniter4\framework\system\Router\Router.php(176): CodeIgniter\Router\Router->autoRoute('/')
+#1 C:\wamp64\www\TrabalhoWebM2\vendor\codeigniter4\framework\system\CodeIgniter.php(718): CodeIgniter\Router\Router->handle('/')
+#2 C:\wamp64\www\TrabalhoWebM2\vendor\codeigniter4\framework\system\CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\wamp64\www\TrabalhoWebM2\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\TrabalhoWebM2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\TrabalhoWebM2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\T...')
+#6 {main}
+CRITICAL - 2021-11-22 18:45:59 --> syntax error, unexpected 'echo' (T_ECHO), expecting ';'
+#0 C:\wamp64\www\TrabalhoWebM2\vendor\codeigniter4\framework\system\Router\Router.php(176): CodeIgniter\Router\Router->autoRoute('/')
+#1 C:\wamp64\www\TrabalhoWebM2\vendor\codeigniter4\framework\system\CodeIgniter.php(718): CodeIgniter\Router\Router->handle('/')
+#2 C:\wamp64\www\TrabalhoWebM2\vendor\codeigniter4\framework\system\CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\wamp64\www\TrabalhoWebM2\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\TrabalhoWebM2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\TrabalhoWebM2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\T...')
+#6 {main}
+CRITICAL - 2021-11-22 18:46:05 --> syntax error, unexpected 'echo' (T_ECHO), expecting ';'
+#0 C:\wamp64\www\TrabalhoWebM2\vendor\codeigniter4\framework\system\Router\Router.php(176): CodeIgniter\Router\Router->autoRoute('/')
+#1 C:\wamp64\www\TrabalhoWebM2\vendor\codeigniter4\framework\system\CodeIgniter.php(718): CodeIgniter\Router\Router->handle('/')
+#2 C:\wamp64\www\TrabalhoWebM2\vendor\codeigniter4\framework\system\CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\wamp64\www\TrabalhoWebM2\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\TrabalhoWebM2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\TrabalhoWebM2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\T...')
+#6 {main}
+CRITICAL - 2021-11-22 18:46:15 --> syntax error, unexpected 'echo' (T_ECHO), expecting ';'
+#0 C:\wamp64\www\TrabalhoWebM2\vendor\codeigniter4\framework\system\Router\Router.php(176): CodeIgniter\Router\Router->autoRoute('/')
+#1 C:\wamp64\www\TrabalhoWebM2\vendor\codeigniter4\framework\system\CodeIgniter.php(718): CodeIgniter\Router\Router->handle('/')
+#2 C:\wamp64\www\TrabalhoWebM2\vendor\codeigniter4\framework\system\CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\wamp64\www\TrabalhoWebM2\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\TrabalhoWebM2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\TrabalhoWebM2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\T...')
+#6 {main}
+CRITICAL - 2021-11-22 18:46:43 --> syntax error, unexpected 'echo' (T_ECHO), expecting ';'
+#0 C:\wamp64\www\TrabalhoWebM2\vendor\codeigniter4\framework\system\Router\Router.php(176): CodeIgniter\Router\Router->autoRoute('/')
+#1 C:\wamp64\www\TrabalhoWebM2\vendor\codeigniter4\framework\system\CodeIgniter.php(718): CodeIgniter\Router\Router->handle('/')
+#2 C:\wamp64\www\TrabalhoWebM2\vendor\codeigniter4\framework\system\CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\wamp64\www\TrabalhoWebM2\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\TrabalhoWebM2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\TrabalhoWebM2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\T...')
+#6 {main}
+ERROR - 2021-11-22 18:49:37 --> Failed to open the referenced table 'categorias'
+ERROR - 2021-11-22 18:50:15 --> Failed to open the referenced table 'categorias'
+ERROR - 2021-11-22 18:53:17 --> Failed to open the referenced table 'categoria'
+ERROR - 2021-11-22 18:55:15 --> Failed to open the referenced table 'categoria'
+ERROR - 2021-11-22 18:56:42 --> Failed to open the referenced table 'categoria'
+CRITICAL - 2021-11-22 18:59:05 --> syntax error, unexpected 'echo' (T_ECHO), expecting ';'
+#0 C:\wamp64\www\TrabalhoWebM2\vendor\codeigniter4\framework\system\Router\Router.php(176): CodeIgniter\Router\Router->autoRoute('/')
+#1 C:\wamp64\www\TrabalhoWebM2\vendor\codeigniter4\framework\system\CodeIgniter.php(718): CodeIgniter\Router\Router->handle('/')
+#2 C:\wamp64\www\TrabalhoWebM2\vendor\codeigniter4\framework\system\CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\wamp64\www\TrabalhoWebM2\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\TrabalhoWebM2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\TrabalhoWebM2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\T...')
+#6 {main}
+ERROR - 2021-11-22 18:59:44 --> Failed to open the referenced table 'categoria'
+ERROR - 2021-11-22 19:05:27 --> Referencing column 'categoria_id' and referenced column 'id' in foreign key constraint 'produto_categoria_id_foreign' are incompatible.
+ERROR - 2021-11-22 19:07:12 --> Referencing column 'categoria_id' and referenced column 'id' in foreign key constraint 'produto_categoria_id_foreign' are incompatible.
+ERROR - 2021-11-22 19:24:45 --> Referencing column 'categoria_id' and referenced column 'id' in foreign key constraint 'produto_categoria_id_foreign' are incompatible.
+ERROR - 2021-11-22 19:25:08 --> Referencing column 'categoria_id' and referenced column 'id' in foreign key constraint 'produto_categoria_id_foreign' are incompatible.
+ERROR - 2021-11-22 19:28:06 --> Referencing column 'categoria_id' and referenced column 'id' in foreign key constraint 'produto_categoria_id_foreign' are incompatible.
+ERROR - 2021-11-22 19:29:53 --> Referencing column 'categoria_id' and referenced column 'id' in foreign key constraint 'produto_categoria_id_foreign' are incompatible.
+CRITICAL - 2021-11-22 19:35:51 --> syntax error, unexpected 'echo' (T_ECHO), expecting ';'
+#0 C:\wamp64\www\TrabalhoWebM2\vendor\codeigniter4\framework\system\Router\Router.php(176): CodeIgniter\Router\Router->autoRoute('/')
+#1 C:\wamp64\www\TrabalhoWebM2\vendor\codeigniter4\framework\system\CodeIgniter.php(718): CodeIgniter\Router\Router->handle('/')
+#2 C:\wamp64\www\TrabalhoWebM2\vendor\codeigniter4\framework\system\CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\wamp64\www\TrabalhoWebM2\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\TrabalhoWebM2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\TrabalhoWebM2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\T...')
+#6 {main}
+CRITICAL - 2021-11-22 19:54:49 --> syntax error, unexpected 'echo' (T_ECHO), expecting ';'
+#0 C:\wamp64\www\TrabalhoWebM2\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\wamp64\\www\\T...')
+#1 C:\wamp64\www\TrabalhoWebM2\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\wamp64\www\TrabalhoWebM2\vendor\codeigniter4\framework\system\CodeIgniter.php(789): class_exists('\\App\\Controller...', true)
+#5 C:\wamp64\www\TrabalhoWebM2\vendor\codeigniter4\framework\system\CodeIgniter.php(397): CodeIgniter\CodeIgniter->startController()
+#6 C:\wamp64\www\TrabalhoWebM2\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\TrabalhoWebM2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\wamp64\www\TrabalhoWebM2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\T...')
+#9 {main}
+CRITICAL - 2021-11-22 20:06:48 --> syntax error, unexpected 'echo' (T_ECHO), expecting ';'
+#0 C:\wamp64\www\TrabalhoWebM2\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\wamp64\\www\\T...')
+#1 C:\wamp64\www\TrabalhoWebM2\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\wamp64\www\TrabalhoWebM2\vendor\codeigniter4\framework\system\CodeIgniter.php(789): class_exists('\\App\\Controller...', true)
+#5 C:\wamp64\www\TrabalhoWebM2\vendor\codeigniter4\framework\system\CodeIgniter.php(397): CodeIgniter\CodeIgniter->startController()
+#6 C:\wamp64\www\TrabalhoWebM2\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\TrabalhoWebM2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\wamp64\www\TrabalhoWebM2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\T...')
+#9 {main}
+CRITICAL - 2021-11-22 20:07:26 --> syntax error, unexpected 'echo' (T_ECHO), expecting ';'
+#0 C:\wamp64\www\TrabalhoWebM2\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\wamp64\\www\\T...')
+#1 C:\wamp64\www\TrabalhoWebM2\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\wamp64\www\TrabalhoWebM2\vendor\codeigniter4\framework\system\CodeIgniter.php(789): class_exists('\\App\\Controller...', true)
+#5 C:\wamp64\www\TrabalhoWebM2\vendor\codeigniter4\framework\system\CodeIgniter.php(397): CodeIgniter\CodeIgniter->startController()
+#6 C:\wamp64\www\TrabalhoWebM2\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\TrabalhoWebM2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\wamp64\www\TrabalhoWebM2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\T...')
+#9 {main}
+CRITICAL - 2021-11-22 20:07:45 --> syntax error, unexpected 'echo' (T_ECHO), expecting ';'
+#0 C:\wamp64\www\TrabalhoWebM2\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\wamp64\\www\\T...')
+#1 C:\wamp64\www\TrabalhoWebM2\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\wamp64\www\TrabalhoWebM2\vendor\codeigniter4\framework\system\CodeIgniter.php(789): class_exists('\\App\\Controller...', true)
+#5 C:\wamp64\www\TrabalhoWebM2\vendor\codeigniter4\framework\system\CodeIgniter.php(397): CodeIgniter\CodeIgniter->startController()
+#6 C:\wamp64\www\TrabalhoWebM2\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\TrabalhoWebM2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\wamp64\www\TrabalhoWebM2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\T...')
+#9 {main}
+ERROR - 2021-11-22 20:15:44 --> Unknown column 'produto.deleted_at' in 'where clause'
+CRITICAL - 2021-11-22 20:15:44 --> Unknown column 'produto.deleted_at' in 'where clause'
+#0 C:\wamp64\www\TrabalhoWebM2\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\wamp64\www\TrabalhoWebM2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\wamp64\www\TrabalhoWebM2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\wamp64\www\TrabalhoWebM2\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\wamp64\www\TrabalhoWebM2\vendor\codeigniter4\framework\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\wamp64\www\TrabalhoWebM2\vendor\codeigniter4\framework\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\wamp64\www\TrabalhoWebM2\app\Controllers\ProdutoController.php(20): CodeIgniter\BaseModel->findAll()
+#7 C:\wamp64\www\TrabalhoWebM2\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\ProdutoController->index()
+#8 C:\wamp64\www\TrabalhoWebM2\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProdutoController))
+#9 C:\wamp64\www\TrabalhoWebM2\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\wamp64\www\TrabalhoWebM2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\wamp64\www\TrabalhoWebM2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\T...')
+#12 {main}
+CRITICAL - 2021-11-22 20:22:31 --> syntax error, unexpected '?>', expecting ')'
+#0 C:\wamp64\www\TrabalhoWebM2\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\wamp64\www\TrabalhoWebM2\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('produtos/index', Array, true)
+#2 C:\wamp64\www\TrabalhoWebM2\app\Controllers\ProdutoController.php(20): view('produtos/index', Array)
+#3 C:\wamp64\www\TrabalhoWebM2\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\ProdutoController->index()
+#4 C:\wamp64\www\TrabalhoWebM2\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProdutoController))
+#5 C:\wamp64\www\TrabalhoWebM2\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\TrabalhoWebM2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\wamp64\www\TrabalhoWebM2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\T...')
+#8 {main}
+CRITICAL - 2021-11-22 20:23:02 --> syntax error, unexpected ';', expecting ')'
+#0 C:\wamp64\www\TrabalhoWebM2\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\wamp64\www\TrabalhoWebM2\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('produtos/index', Array, true)
+#2 C:\wamp64\www\TrabalhoWebM2\app\Controllers\ProdutoController.php(20): view('produtos/index', Array)
+#3 C:\wamp64\www\TrabalhoWebM2\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\ProdutoController->index()
+#4 C:\wamp64\www\TrabalhoWebM2\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProdutoController))
+#5 C:\wamp64\www\TrabalhoWebM2\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\TrabalhoWebM2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\wamp64\www\TrabalhoWebM2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\T...')
+#8 {main}
+CRITICAL - 2021-11-22 20:26:08 --> syntax error, unexpected ''btn btn-sucess mb-4'' (T_CONSTANT_ENCAPSED_STRING), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$'
+#0 C:\wamp64\www\TrabalhoWebM2\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\wamp64\www\TrabalhoWebM2\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('produtos/index', Array, true)
+#2 C:\wamp64\www\TrabalhoWebM2\app\Controllers\ProdutoController.php(20): view('produtos/index', Array)
+#3 C:\wamp64\www\TrabalhoWebM2\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\ProdutoController->index()
+#4 C:\wamp64\www\TrabalhoWebM2\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProdutoController))
+#5 C:\wamp64\www\TrabalhoWebM2\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\TrabalhoWebM2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\wamp64\www\TrabalhoWebM2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\T...')
+#8 {main}
+CRITICAL - 2021-11-22 20:26:10 --> syntax error, unexpected ''btn btn-sucess mb-4'' (T_CONSTANT_ENCAPSED_STRING), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$'
+#0 C:\wamp64\www\TrabalhoWebM2\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\wamp64\www\TrabalhoWebM2\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('produtos/index', Array, true)
+#2 C:\wamp64\www\TrabalhoWebM2\app\Controllers\ProdutoController.php(20): view('produtos/index', Array)
+#3 C:\wamp64\www\TrabalhoWebM2\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\ProdutoController->index()
+#4 C:\wamp64\www\TrabalhoWebM2\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProdutoController))
+#5 C:\wamp64\www\TrabalhoWebM2\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\TrabalhoWebM2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\wamp64\www\TrabalhoWebM2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\T...')
+#8 {main}
+ERROR - 2021-11-22 20:28:41 --> Cannot add or update a child row: a foreign key constraint fails (`db_trabalhowebm2`.`produto`, CONSTRAINT `produto_categoria_id_foreign` FOREIGN KEY (`categoria_id`) REFERENCES `categoria` (`id`))
+CRITICAL - 2021-11-22 20:28:41 --> Cannot add or update a child row: a foreign key constraint fails (`db_trabalhowebm2`.`produto`, CONSTRAINT `produto_categoria_id_foreign` FOREIGN KEY (`categoria_id`) REFERENCES `categoria` (`id`))
+#0 C:\wamp64\www\TrabalhoWebM2\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `pr...', 0)
+#1 C:\wamp64\www\TrabalhoWebM2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 C:\wamp64\www\TrabalhoWebM2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 C:\wamp64\www\TrabalhoWebM2\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1759): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', Array, false)
+#4 C:\wamp64\www\TrabalhoWebM2\vendor\codeigniter4\framework\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\wamp64\www\TrabalhoWebM2\vendor\codeigniter4\framework\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\wamp64\www\TrabalhoWebM2\vendor\codeigniter4\framework\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\wamp64\www\TrabalhoWebM2\vendor\codeigniter4\framework\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 C:\wamp64\www\TrabalhoWebM2\app\Controllers\ProdutoController.php(31): CodeIgniter\BaseModel->save(Array)
+#9 C:\wamp64\www\TrabalhoWebM2\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\ProdutoController->store()
+#10 C:\wamp64\www\TrabalhoWebM2\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProdutoController))
+#11 C:\wamp64\www\TrabalhoWebM2\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\wamp64\www\TrabalhoWebM2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 C:\wamp64\www\TrabalhoWebM2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\T...')
+#14 {main}
+ERROR - 2021-11-22 20:31:10 --> Cannot add or update a child row: a foreign key constraint fails (`db_trabalhowebm2`.`produto`, CONSTRAINT `produto_categoria_id_foreign` FOREIGN KEY (`categoria_id`) REFERENCES `categoria` (`id`))
+CRITICAL - 2021-11-22 20:31:10 --> Cannot add or update a child row: a foreign key constraint fails (`db_trabalhowebm2`.`produto`, CONSTRAINT `produto_categoria_id_foreign` FOREIGN KEY (`categoria_id`) REFERENCES `categoria` (`id`))
+#0 C:\wamp64\www\TrabalhoWebM2\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `pr...', 0)
+#1 C:\wamp64\www\TrabalhoWebM2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 C:\wamp64\www\TrabalhoWebM2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 C:\wamp64\www\TrabalhoWebM2\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1759): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', Array, false)
+#4 C:\wamp64\www\TrabalhoWebM2\vendor\codeigniter4\framework\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\wamp64\www\TrabalhoWebM2\vendor\codeigniter4\framework\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\wamp64\www\TrabalhoWebM2\vendor\codeigniter4\framework\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\wamp64\www\TrabalhoWebM2\vendor\codeigniter4\framework\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 C:\wamp64\www\TrabalhoWebM2\app\Controllers\ProdutoController.php(31): CodeIgniter\BaseModel->save(Array)
+#9 C:\wamp64\www\TrabalhoWebM2\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\ProdutoController->store()
+#10 C:\wamp64\www\TrabalhoWebM2\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProdutoController))
+#11 C:\wamp64\www\TrabalhoWebM2\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\wamp64\www\TrabalhoWebM2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 C:\wamp64\www\TrabalhoWebM2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\T...')
+#14 {main}

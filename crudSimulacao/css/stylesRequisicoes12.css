@@ -1,0 +1,19 @@
+.caixa-roxa{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    background-color: #44245E;
+    margin-top: 3%;
+    margin-bottom: 3vh;
+}
+
+.container-inputs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 85%;
+    background-color: white;
+    margin-top: 1%;
+    margin-bottom: 3vh;
+}

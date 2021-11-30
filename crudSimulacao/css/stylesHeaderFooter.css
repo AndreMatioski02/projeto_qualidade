@@ -1,0 +1,49 @@
+#items-bar{
+    align-items: flex-end;
+    justify-content: end;
+}
+
+.principal{
+    background-color: #44245E;
+}
+
+.search-bar{
+    margin-left: 60px;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-profile{
+    align-items: flex-end;
+    justify-content: end;
+}
+
+.caixa{
+    background-color: #44245E;
+    color: white;
+}
+
+.footerInt{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.centAtend{
+    margin-top: 5%;
+}
+
+.servicos{
+    margin-left: 2%;
+    margin-top: 3.6%;
+}
+
+.institucional{
+    margin-left: 2%;
+    margin-top: 5%;
+}
+
+.contatos{
+    margin-left: 2%;
+    margin-top: 11%;
+}

@@ -1,0 +1,19 @@
+.container-carrossel{
+    width: 50%;
+}
+
+.container-downloads{
+    width: 50%;
+}
+
+.caixa-comoF{
+    align-items: center;
+    color: white;
+    background-color: #44245E;
+}
+
+.caixa-comoF-inner{
+    text-align: left;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
